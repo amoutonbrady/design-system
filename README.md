@@ -1,10 +1,10 @@
-# Experimental design system for my company
+# Experimental design system
 
 Poking around with some ideas to what we could use in our future projects.
 
-(\*) = Required attributes
+**(\*) = Required attributes**
 
-- [Experimental design system for my company](#experimental-design-system-for-my-company)
+- [Experimental design system](#experimental-design-system)
 	- [Colors](#colors)
 	- [Typography](#typography)
 	- [Alerts](#alerts)
