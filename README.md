@@ -1,10 +1,8 @@
-# Experimental design system for my company
+# Experimental design system
 
 Poking around with some ideas to what we could use in our future projects.
 
-(\*) = Required attributes
-
--   [Experimental design system for my company](#experimental-design-system-for-my-company) - [Colors](#colors) - [Typography](#typography) - [Alerts](#alerts) - [States](#states) - [Attributes](#attributes) - [Accessibility](#accessibility) - [Buttons](#buttons) - [Variants](#variants) - [States](#states-1) - [Sizes](#sizes) - [Attributes](#attributes-1) - [Accessibility](#accessibility-1) - [Form - Input](#form---input) - [States](#states-2) - [Attributes](#attributes-2) - [Variants](#variants-1) - [Extra](#extra) - [Form - Radio / Checkbox](#form---radio--checkbox) - [States](#states-3) - [Attributes](#attributes-3) - [Form - Toggle](#form---toggle) - [States](#states-4) - [Attributes](#attributes-4) - [Accessibility](#accessibility-2) - [Form - Selector](#form---selector) - [States](#states-5) - [Attributes](#attributes-5) - [Form - Field Hint](#form---field-hint) - [Form - Validation Helpers](#form---validation-helpers) - [Tabs](#tabs) - [Status](#status) - [Attributes for the container](#attributes-for-the-container) - [Attributes for each tab](#attributes-for-each-tab) - [Accessibility](#accessibility-3) - [/!\ - To figure out](#to-figure-out)
+**(\*) = Required attributes**
 
 ## Colors
 
