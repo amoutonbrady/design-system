@@ -4,66 +4,31 @@ Poking around with some ideas to what we could use in our future projects.
 
 (\*) = Required attributes
 
-- [Experimental design system for my company](#experimental-design-system-for-my-company)
-	- [Colors](#colors)
-	- [Typography](#typography)
-	- [Alerts](#alerts)
-		- [States](#states)
-		- [Attributes](#attributes)
-		- [Accessibility](#accessibility)
-	- [Buttons](#buttons)
-		- [Variants](#variants)
-			- [States](#states-1)
-			- [Sizes](#sizes)
-		- [Attributes](#attributes-1)
-		- [Accessibility](#accessibility-1)
-	- [Form - Input](#form---input)
-		- [States](#states-2)
-		- [Attributes](#attributes-2)
-		- [Variants](#variants-1)
-			- [Extra](#extra)
-	- [Form - Radio / Checkbox](#form---radio--checkbox)
-		- [States](#states-3)
-		- [Attributes](#attributes-3)
-	- [Form - Toggle](#form---toggle)
-		- [States](#states-4)
-		- [Attributes](#attributes-4)
-		- [Accessibility](#accessibility-2)
-	- [Form - Selector](#form---selector)
-		- [States](#states-5)
-		- [Attributes](#attributes-5)
-	- [Form - Field Hint](#form---field-hint)
-	- [Form - Validation Helpers](#form---validation-helpers)
-	- [Tabs](#tabs)
-		- [Status](#status)
-		- [Attributes for the container](#attributes-for-the-container)
-		- [Attributes for each tab](#attributes-for-each-tab)
-		- [Accessibility](#accessibility-3)
-	- [/!\ - To figure out](#to-figure-out)
+-   [Experimental design system for my company](#experimental-design-system-for-my-company) - [Colors](#colors) - [Typography](#typography) - [Alerts](#alerts) - [States](#states) - [Attributes](#attributes) - [Accessibility](#accessibility) - [Buttons](#buttons) - [Variants](#variants) - [States](#states-1) - [Sizes](#sizes) - [Attributes](#attributes-1) - [Accessibility](#accessibility-1) - [Form - Input](#form---input) - [States](#states-2) - [Attributes](#attributes-2) - [Variants](#variants-1) - [Extra](#extra) - [Form - Radio / Checkbox](#form---radio--checkbox) - [States](#states-3) - [Attributes](#attributes-3) - [Form - Toggle](#form---toggle) - [States](#states-4) - [Attributes](#attributes-4) - [Accessibility](#accessibility-2) - [Form - Selector](#form---selector) - [States](#states-5) - [Attributes](#attributes-5) - [Form - Field Hint](#form---field-hint) - [Form - Validation Helpers](#form---validation-helpers) - [Tabs](#tabs) - [Status](#status) - [Attributes for the container](#attributes-for-the-container) - [Attributes for each tab](#attributes-for-each-tab) - [Accessibility](#accessibility-3) - [/!\ - To figure out](#to-figure-out)
 
 ## Colors
 
-- Primay color
-- Grays
-- State indicator (banner, button, etc.)
-  - Warning
-  - Danger / Error
-  - Informative
-  - Success
-  - Visited
-  - Hovered
-  - Focused
-  - Disabled
+-   Primay color
+-   Grays
+-   State indicator (banner, button, etc.)
+    -   Warning
+    -   Danger / Error
+    -   Informative
+    -   Success
+    -   Visited
+    -   Hovered
+    -   Focused
+    -   Disabled
 
 ## Typography
 
-- Fonts
-  - sans-serif
-  - serif
-  - monospace
-- Headings
-- Paragraphs
-- Links
+-   Fonts
+    -   sans-serif
+    -   serif
+    -   monospace
+-   Headings
+-   Paragraphs
+-   Links
 
 ## Alerts
 
@@ -73,21 +38,21 @@ An alert is **mostly text** oriented with a **strong color accent** to indicate 
 
 ### States
 
-- Success
-- Error
-- Warning
-- Informative
+-   Success
+-   Error
+-   Warning
+-   Informative
 
 ### Attributes
 
-- (\*) title
-- (\*) content
-- (\*) status
-- icon
+-   (\*) title
+-   (\*) content
+-   (\*) status
+-   icon
 
 ### Accessibility
 
-- `role="alert"` [specification](https://www.w3.org/TR/wai-aria-practices/#alert)
+-   `role="alert"` [specification](https://www.w3.org/TR/wai-aria-practices/#alert)
 
 ## Buttons
 
@@ -97,34 +62,34 @@ Button should be uniform across all states. A button can have different states. 
 
 #### States
 
-- Default
-- Primary
-- Secondary
-- Loading
-- Hover
-- Focused
-- Disabled
-- Success
-- Error
-- Warning
-- Informative
+-   Default
+-   Primary
+-   Secondary
+-   Loading
+-   Hover
+-   Focused
+-   Disabled
+-   Success
+-   Error
+-   Warning
+-   Informative
 
 #### Sizes
 
-- Small
-- Default
-- Large
+-   Small
+-   Default
+-   Large
 
 ### Attributes
 
-- (\*) label
-- (\*) type (`submit` or `button`)
-- status
-- icon
+-   (\*) label
+-   (\*) type (`submit` or `button`)
+-   status
+-   icon
 
 ### Accessibility
 
-- `role="button"` if `<a>` as tag [specification](https://www.w3.org/TR/wai-aria-practices/#button)
+-   `role="button"` if `<a>` as tag [specification](https://www.w3.org/TR/wai-aria-practices/#button)
 
 ## Form - Input
 
@@ -132,29 +97,29 @@ Input can also be used as auto-complete with `<datalist>`
 
 ### States
 
-- Default
-- Valid
-- Invalid
-- Disabled
-- Focused
+-   Default
+-   Valid
+-   Invalid
+-   Disabled
+-   Focused
 
 ### Attributes
 
-- (\*) label
-- (\*) type
-- (\*) placeholder
-- (\*) required
-- status
-- datalist
-- validators
+-   (\*) label
+-   (\*) type
+-   (\*) placeholder
+-   (\*) required
+-   status
+-   datalist
+-   validators
 
 ### Variants
 
-- groups (prepend / append)
+-   groups (prepend / append)
 
 #### Extra
 
-- Groups (prepend / append / both)
+-   Groups (prepend / append / both)
 
 ## Form - Radio / Checkbox
 
@@ -162,17 +127,17 @@ Basic form element. Ideally would be wrapped in a `<fieldset>` with a `<legend>`
 
 ### States
 
-- Checked
-- Unchecked
-- Disabled
-- Focused
+-   Checked
+-   Unchecked
+-   Disabled
+-   Focused
 
 ### Attributes
 
-- (\*) label
-- (\*) type (`submit` or `button`)
-- status
-- icon
+-   (\*) label
+-   (\*) type (`submit` or `button`)
+-   status
+-   icon
 
 ## Form - Toggle
 
@@ -180,19 +145,19 @@ Used to activate / deactive an option
 
 ### States
 
-- Checked
-- Unchecked
-- Disabled
-- Focused
+-   Checked
+-   Unchecked
+-   Disabled
+-   Focused
 
 ### Attributes
 
-- (\*) label when activated / deactivated
-- status
+-   (\*) label when activated / deactivated
+-   status
 
 ### Accessibility
 
-- [https://www.smashingmagazine.com/2017/09/building-inclusive-toggle-buttons/](https://www.smashingmagazine.com/2017/09/building-inclusive-toggle-buttons/)
+-   [https://www.smashingmagazine.com/2017/09/building-inclusive-toggle-buttons/](https://www.smashingmagazine.com/2017/09/building-inclusive-toggle-buttons/)
 
 ## Form - Selector
 
@@ -202,20 +167,20 @@ We could use the `multiple` native attribute for multiple values, although it se
 
 ### States
 
-- Default
-- Selected
-- Disabled
-- Focused
-- Error
+-   Default
+-   Selected
+-   Disabled
+-   Focused
+-   Error
 
 ### Attributes
 
-- (\*) label
-- (\*) placeholder
-- (\*) list
-- (\*) required
-- type (multiple)
-- status
+-   (\*) label
+-   (\*) placeholder
+-   (\*) list
+-   (\*) required
+-   type (multiple)
+-   status
 
 ## Form - Field Hint
 
@@ -231,46 +196,46 @@ Tabs allow to split content into multiple views. The content of each tabs should
 
 ### Status
 
-- Active
-- Inactive
-- Disabled
+-   Active
+-   Inactive
+-   Disabled
 
 ### Attributes for the container
 
-- (\*) label (for accssibility)
+-   (\*) label (for accssibility)
 
 ### Attributes for each tab
 
-- (\*) label
-- (\*) content
-- (\*) active
-- icon
+-   (\*) label
+-   (\*) content
+-   (\*) active
+-   icon
 
 ### Accessibility
 
 [Specification](https://www.w3.org/TR/wai-aria-practices/examples/tabs/tabs-1/tabs.html)
 
-- `role="tablist"` for the container
-- `aria-label=""` for the container
+-   `role="tablist"` for the container
+-   `aria-label=""` for the container
 
-- `role="tab"` for each tab
-- `aria-selected="true|false"` for each tab
+-   `role="tab"` for each tab
+-   `aria-selected="true|false"` for each tab
 
-- `role="tabpanel"` for the content of the tab (header)
+-   `role="tabpanel"` for the content of the tab (header)
 
 ## /!\ - To figure out
 
-- Iconography
-- Images
-- Lists / Multisteps
-- Datepicker / Timepicker
-- Badge
-- Modal
-- Notification
-- Dropdown
-- Navigation
-- Pagination
-- Tooltips
-- Progressbar
-- Loader (inline and bigger ones)
-- Toast
+-   Iconography
+-   Images
+-   Lists / Multisteps
+-   Datepicker / Timepicker
+-   Badge
+-   Modal
+-   Notification
+-   Dropdown
+-   Navigation
+-   Pagination
+-   Tooltips
+-   Progressbar
+-   Loader (inline and bigger ones)
+-   Toast
